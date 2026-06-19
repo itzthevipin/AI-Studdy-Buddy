@@ -7,7 +7,7 @@ dotenv_path = os.path.join(os.path.dirname(__file__), ".env")
 load_dotenv(dotenv_path=dotenv_path)
 
 
-API_KEY = os.getenv("AQ.Ab8RN6JJP6Kgmi0jWTmhI2qEC9tt8JRVQIhoL3f0HShhFZ1nPg")
+API_KEY = os.getenv("Your Gemini Key Here")
 
 
 if not API_KEY:
