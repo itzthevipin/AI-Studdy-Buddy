@@ -130,7 +130,7 @@ st.markdown("""
 
 # Initialize Gemini
 def initialize_gemini():
-    api_key = GEMINI_API_KEY or st.secrets.get("AQ.Ab8RN6JJP6Kgmi0jWTmhI2qEC9tt8JRVQIhoL3f0HShhFZ1nPg")
+    api_key = GEMINI_API_KEY or st.secrets.get("Your Gemini Key")
     if not api_key:
         st.error("⚠️ Please set your GEMINI_API_KEY in .env or .streamlit/secrets.toml")
         st.stop()
